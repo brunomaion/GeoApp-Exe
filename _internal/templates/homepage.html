@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+    <!-- Adicione as logos dentro de uma div com a classe "logos" -->
+    <div class="logos">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logoUnio.png') }}" alt="Logo 1">
+        </div>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logoCasc.png') }}" alt="Logo 2">
+        </div>
+    </div>
+
+    <div class="content">
+        <h1> Criador de Mapas Interativos</h1>
+    </div>
+
+    <!-- Conteúdo da página -->
+    <div class="content">
+        <form action="{{ url_for('configuracoes_gerais') }}" method="get">
+            <button class="back-button" type="submit">Configurações Gerais</button>
+        </form>
+        
+        <form action="{{ url_for('camadas') }}" method="get">
+            <button class="back-button" type="submit">Camadas</button>
+        </form>
+        
+        <form action="{{ url_for('saveMapa') }}" method="get">
+            <button class="back-button" type="submit">Baixar Mapa</button>
+        </form>
+    </div>
+
+
+    
+</body>
+</html>

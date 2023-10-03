@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detalhes da Camada</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+    <!-- Adicione as logos dentro de uma div com a classe "logos" -->
+    <div class="logos">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logoUnio.png') }}" alt="Logo 1">
+        </div>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logoCasc.png') }}" alt="Logo 2">
+        </div>
+    </div>
+
+    <div class="contentRight">
+        <h1>Detalhes da Camada</h1>
+        <h2>Nome: {{ camada.nome }}</h2>
+        <h2>Tipo: {{ camada.tipo }}</h2>
+    
+        <h3>Colunas:</h3>
+        <p>Principal: {{ camada.xNome }}</p>
+        <p>Latitude: {{ camada.yLat }}</p>
+        <p>Longitude: {{ camada.zLong }}</p>
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    {% for column in camada.dfx.columns %}
+                    <th>{{ column }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for index, row in camada.dfx.iterrows() %}
+                <tr>
+                    {% for column, value in row.items() %}
+                    <td>{{ value }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    
+        <div class = "content">
+            <form action="{{ url_for('botaoAdd', camada_nome=camada.nome) }}" method="post">
+                <h2>Adicionar texto à coluna principal</h2>
+                <label for="column">Coluna:</label>
+                <input type="text" id="column" name="column">
+
+                <button class="back-button" type="submit">Adicionar Coluna</button>
+            </form>            
+        </div>
+    
+        <div class = "content">
+            <form action="{{ url_for('camadas') }}" method="get">
+                <button class="back-button" type="submit">Voltar</button>
+            </form>
+        </div>
+
+
+    </div>
+
+
+
+
+  
+</body>
+</html>

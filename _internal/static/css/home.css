@@ -1,0 +1,93 @@
+/* home.css */
+
+/* Defina estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: transparent; /* Torna o fundo transparente */
+}
+
+/* Estilos para a seção de logos */
+.logos {
+  display: flex; /* Use flexbox para criar um layout de duas colunas */
+  justify-content: center; /* Centralize os elementos horizontalmente */
+  align-items: center; /* Centralize os elementos verticalmente */
+  padding: 20px; /* Adicione algum espaço ao redor das logos */
+}
+
+/* Estilos para cada logo */
+.logo {
+  text-align: center;
+  margin: 10px; /* Adicione espaço entre as logos */
+}
+
+/* Estilos para a imagem do logo */
+.logo img {
+  max-width: 70%; /* Reduza o tamanho da imagem para 70% do tamanho original */
+  transform: scale(0.7); /* Diminua o tamanho da imagem em 30% usando escala */
+  transition: transform 0.3s ease; /* Adicione uma transição suave para a animação */
+}
+
+/* Adicione um efeito de zoom suave quando passar o mouse sobre a imagem do logo */
+.logo img:hover {
+  transform: scale(1); /* Aumente o tamanho da imagem de volta ao tamanho original */
+}
+
+/* Estilos para o conteúdo da página */
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #0d9250;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 194, 194, 0.2);
+  text-align: center; /* Centralize o conteúdo horizontalmente */
+}
+
+.contentRight {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #0d9250;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 194, 194, 0.2);
+  text-align: left; /* Centralize o conteúdo horizontalmente */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #555; /* Mudar a cor de fundo quando passar o mouse */
+}
+
+/* Estilos básicos do botão */
+.back-button {
+  background-color: #252525; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none; /* Remover a borda padrão do botão */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  border-radius: 5px; /* Cantos arredondados */
+  cursor: pointer; /* Altera o cursor para uma mão ao passar o mouse */
+  text-decoration: none; /* Remover sublinhado padrão */
+}
+
+/* Estilos de hover (quando o mouse passa por cima) */
+.back-button:hover {
+  background-color: #a1a1a1; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Estilos de foco (quando o botão está focado, como ao pressionar Tab) */
+.back-button:focus {
+  outline: none; /* Remover a borda de foco padrão */
+  box-shadow: 0 0 0 2px #000000; /* Adicionar uma borda de foco personalizada */
+}
+

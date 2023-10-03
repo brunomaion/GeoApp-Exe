@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Importar CSV</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+    <!-- Adicione as logos dentro de uma div com a classe "logos" -->
+    <div class="logos">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logoUnio.png') }}" alt="Logo 1">
+        </div>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logoCasc.png') }}" alt="Logo 2">
+        </div>
+    </div>
+
+
+    <div class="content"> 
+
+
+
+
+        <h1>Importar CSV</h1>
+        <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data">
+            
+            <div class="contentRight">
+                <label for="nomeCamada">Nome Camada:</label>
+                <input type="text" name="nomeCamada" id="nomeCamada" required><br>
+                
+                <label for="mainColumn">Coluna Principal:</label>
+                <input type="text" name="mainColumn" id="mainColumn" required><br>
+            
+                <label for="latitudeColumn">Coluna Latitude:</label>
+                <input type="text" name="latitudeColumn" id="latitudeColumn" required><br>
+            
+                <label for="longitudeColumn">Coluna Longitude:</label>
+                <input type="text" name="longitudeColumn" id="longitudeColumn" required><br>
+            
+                <label for="opcSelect">Tipo:</label>
+                <select name="opcSelect" id="opcSelect" required>
+                    <option value="Texto">Texto</option>
+                    <option value="Marcador">Marcador</option>
+                </select><br>
+        
+                <label for="opcSep">Separação CSV:</label>
+                <select name="opcSep" id="opcSep" required>
+                    <option value=";">;</option>
+                    <option value=",">,</option>
+                </select><br>
+            </div>
+
+            <div class="content">
+                <input class="back-button" type="file" name="fileToUpload" id="fileToUpload">
+                <button class="back-button" type="submit" name="submit">Upload e Copiar</button>
+           
+            </div>
+
+        
+        </form>
+    
+        <form action="{{ url_for('camadas') }}" method="get">
+            <button class="back-button" type="submit">Voltar</button>
+        </form>
+    </div>
+    
+
+
+</body>
+</html>

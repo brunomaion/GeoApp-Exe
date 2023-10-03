@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+
+    <div class="logos">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logoUnio.png') }}" alt="Logo 1">
+        </div>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logoCasc.png') }}" alt="Logo 2">
+        </div>
+    </div>
+    
+    <div class="content">   
+
+        
+        <h1 class="page-title">Configurações Gerais</h1>
+        
+        <form action="{{ url_for('configuracoes_gerais') }}" method="post">
+            <div class="contentRight">
+                <h4>Ponto central inicial (Por padrão: Cascavel)</h4>
+
+                <label for="latitude">Latitude:</label>
+                <input type="text" id="latitude" name="latitude" required value="{{ latitudeInicial }}">
+
+
+                <label for="longitude">Longitude:</label>
+                <input type="text" id="longitude" name="longitude" required value="{{ longitudeInicial }}">
+
+            </div>
+            
+            <div class="contentRight">
+                <h4>Estilo inicial: {{ estiloInicial }}</h4>
+
+                    <input type="radio" id="estilo1" name="estilo" value="CartoDB positron" {% if estiloInicial == '1' %}checked{% endif %}>
+                    <label for="estilo1">CartoDB positron</label><br>
+                    
+                    <input type="radio" id="estilo2" name="estilo" value="OpenStreetMap" {% if estiloInicial == '2' %}checked{% endif %}>
+                    <label for="estilo2">OpenStreetMap</label><br>
+                    
+                    <input type="radio" id="estilo3" name="estilo" value="Stamen Terrain" {% if estiloInicial == '3' %}checked{% endif %}>
+                    <label for="estilo3">Stamen Terrain</label><br>
+                    
+                    <input type="radio" id="estilo4" name="estilo" value="cartodbdark_matter" {% if estiloInicial == '4' %}checked{% endif %}>
+                    <label for="estilo4">cartodbdark_matter</label><br>
+
+            </div>
+            
+            <button class="back-button" type="submit">Salvar Configurações</button>
+        </form>
+        
+        <form action="{{ url_for('home') }}" method="get">
+            <button class="back-button" type="submit">Voltar</button>
+        </form>
+
+    </div>
+
+
+</body>
+</html>
