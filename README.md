@@ -1,4 +1,4 @@
-# GeoApp-Exe
+![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/cc2378cc-d8b7-4272-b366-09e84fcfc97c)# GeoApp-Exe
 
 ### Baixar o programa
 
@@ -23,13 +23,37 @@ Será aberto o menu principal
 #### Como criar um mapa interativo?
 
 ##### 1 - Configuraçõess Gerais
+
+O primeiro passo, é definir uma latitude e longitude inicial para o mapa, por padrão já está pré-prenchida com as informações de Cascavel-PR. 
+
 ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/6d58c437-9b28-4676-80ba-bc9c20de4858)
+
+O segundo campo defini o estilo inicial que o mapa inicializará, porém não se preocupe, os outros estilos serão adicionados ao mapa. O padrão inicial é CartoDB.
+
+Guia de estilos
+
+- CartoDB
+- ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/453ea4fd-71ec-43d8-8d63-ae2d445e677c)
+
+- OpenStreetMap
+- ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/2c3a8640-5fdb-440e-8e30-f0decc29dce2)
+
+- Stamen Terrain
+- ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/f11db760-6b6c-4709-a55e-9a7e7a32bde2)
+
+- CartoDBDark
+- ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/7f63646a-91ea-46a0-b783-2dddfb659bc0)
+
+
+Ao finalizar clique em "Salvar configurações" e em seguida em "Voltar".
 
 
 ##### 2 - Camadas
 ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/f489b4f7-078a-47ca-a293-ddceb35185e4)
 
-2.1 - Importar
+2.1 - Importar CSV
+
+O aplicativo suporta apenas planilhas em CSV, tabuladas por vírgula ou ponto e vírgula.
 
 2.2 - Propriedadess
 Ao clicar em cima da camada é aberto as propiedades da mesma
