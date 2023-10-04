@@ -13,6 +13,9 @@ O programa se encontra no link: https://github.com/brunomaion/GeoApp-Exe
 
 #### Executar
 Para executar basta clicar no aplicativo executável "geoApp-Unioeste"
+![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/404cf4cd-59ce-4774-87f0-8b4ceded94a4)
+
+Será aberto o menu principal
 ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/929599df-9789-4df0-95cc-600565dddc10)
 
 #### Como criar um mapa interativo?
