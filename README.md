@@ -52,6 +52,9 @@ Ao finalizar clique em "Salvar configurações" e em seguida em "Voltar".
 
 O aplicativo suporta apenas planilhas em CSV, tabuladas por vírgula ou ponto e vírgula.
 
+![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/376c784f-c685-4fe0-98e4-4d8183fb4559)
+
+
 - Nome camada: É o nome que a camada. Ex: "Casos Confirmados 2023"
 - Coluna Principal: É a coluna em que deve estar o texto principal a ser exibido
 - Latitude: Coluna onde deve estar a latitude
