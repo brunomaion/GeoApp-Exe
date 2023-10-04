@@ -32,12 +32,13 @@ O segundo campo defini o estilo inicial que o mapa inicializará, porém não se
 
 
 
-Estilo            | 
-------------------|-----------------------------------------------
-CartoDB           | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/453ea4fd-71ec-43d8-8d63-ae2d445e677c)
-OpenStreetMap     | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/2c3a8640-5fdb-440e-8e30-f0decc29dce2)
-Stamen Terrain    | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/f11db760-6b6c-4709-a55e-9a7e7a32bde2)
-CartoDBDark       | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/7f63646a-91ea-46a0-b783-2dddfb659bc0)
+| Estilo            | Imagem                                                                                                   |
+|-------------------|---------------------------------------------------------------------------------------------------------|
+| CartoDB           | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/453ea4fd-71ec-43d8-8d63-ae2d445e677c) |
+| OpenStreetMap     | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/2c3a8640-5fdb-440e-8e30-f0decc29dce2) |
+| Stamen Terrain    | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/f11db760-6b6c-4709-a55e-9a7e7a32bde2) |
+| CartoDBDark       | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/7f63646a-91ea-46a0-b783-2dddfb659bc0) |
+
 
 
 
@@ -57,11 +58,12 @@ O aplicativo suporta apenas planilhas em CSV, tabuladas por vírgula ou ponto e 
 - Longitude: Coluna onde deve estar a longitude
 - Tipo: Selecione o tipo que será a camada.
 - Separação: define o tipo de tabulação da planilha em CSV (vírgula ou ponto e vírgula)
-- 
-**Tipo**          | 
-------------------|-----------------------------------------------
-Marcador          | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/4abdca4f-7074-418f-bbb3-9e527d83c740)
-Texto             | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/be01677b-95d1-4298-a074-3e6f257c304a)
+  
+| Tipo      | Imagem                                                                                                   |
+|-----------|---------------------------------------------------------------------------------------------------------|
+| Marcador  | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/4abdca4f-7074-418f-bbb3-9e527d83c740) |
+| Texto     | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/be01677b-95d1-4298-a074-3e6f257c304a) |
+
 
 
 Clique em "Browse" e selecione o arquivo em seu computador e em seguida clique em "Upload". **ATENÇÃO**: caso a tabulação ou a coluna estiver incorreta esta camada não irá funcionar. Para confirmar se está certo você pode abrir as propriedades da camada
