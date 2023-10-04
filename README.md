@@ -55,7 +55,7 @@ O aplicativo suporta apenas planilhas em CSV, tabuladas por vírgula ou ponto e 
 ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/376c784f-c685-4fe0-98e4-4d8183fb4559)
 
 
-- Nome camada: É o nome que a camada. Ex: "Casos Confirmados 2023"
+- Nome camada: É o nome que a camada assumirá. Ex: "Casos Confirmados 2023"
 - Coluna Principal: É a coluna em que deve estar o texto principal a ser exibido
 - Latitude: Coluna onde deve estar a latitude
 - Longitude: Coluna onde deve estar a longitude
@@ -73,7 +73,10 @@ Clique em "Escolher arquivo" e selecione o arquivo em seu computador e em seguid
 
 **2.2 - Propriedades**
 
+![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/c60736b0-92bf-4502-a13d-f41d1eceb025)
+
 Ao clicar em cima da camada é aberto as propiedades da mesma
+
 
 No cabeçalho, consta as informações para conferência com a tabela que é exbida logo abaixo
 
