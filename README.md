@@ -30,9 +30,9 @@ O primeiro passo, é definir uma latitude e longitude inicial para o mapa, por p
 
 O segundo campo defini o estilo inicial que o mapa inicializará, porém não se preocupe, os outros estilos serão adicionados ao mapa. O padrão inicial é CartoDB.
 
-Guia de Estilos
 
-Estilo            | Link da Imagem
+
+Estilo            | 
 ------------------|-----------------------------------------------
 CartoDB           | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/453ea4fd-71ec-43d8-8d63-ae2d445e677c)
 OpenStreetMap     | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/2c3a8640-5fdb-440e-8e30-f0decc29dce2)
@@ -55,10 +55,16 @@ O aplicativo suporta apenas planilhas em CSV, tabuladas por vírgula ou ponto e 
 - Coluna Principal: É a coluna em que deve estar o texto principal a ser exibido
 - Latitude: Coluna onde deve estar a latitude
 - Longitude: Coluna onde deve estar a longitude
-- Tipo: Selecione o tipo que será a camada. 
-Marcador img
-Texto img
-Separação: define o tipo de tabulação da planilha em CSV (vírgula ou ponto e vírgula)
+- Tipo: Selecione o tipo que será a camada.
+- Separação: define o tipo de tabulação da planilha em CSV (vírgula ou ponto e vírgula)
+- 
+**Tipo**          | 
+------------------|-----------------------------------------------
+Marcador          | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/4abdca4f-7074-418f-bbb3-9e527d83c740)
+Texto             | ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/be01677b-95d1-4298-a074-3e6f257c304a)
+
+
+Clique em "Browse" e selecione o arquivo em seu computador e em seguida clique em "Upload". **ATENÇÃO**: caso a tabulação ou a coluna estiver incorreta esta camada não irá funcionar. Para confirmar se está certo você pode abrir as propriedades da camada
 
 **2.2 - Propriedades**
 
@@ -82,6 +88,9 @@ Após feito isso é só voltar ao Menu Principal
 
 #### 3 - Baixar 
 
+Para baixar o mapa basta cliclar em "Baixar", definir um nome para o arquivo e o zoom inicial. Por padrão o zoom está em 12.
+
 ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/73a4cd83-044b-46f5-80e1-c48ce379c3d0)
+
 
 
