@@ -34,16 +34,17 @@ No cabeçalho, consta as informações para conferência com a tabela que é exb
 
 ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/a8fb794f-568f-4d21-b8a4-51d743fd6824)
 
+
 Para adicionar um texto extra a coluna principal, basta digitar no campo abaixo o nome da coluna que deseja adicionar 
 
 ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/653d2065-0501-4495-94a5-a24a4e1c0551)
 
+Neste exemplo,a  Coluna Principal foi atualizada sendo adicionado o número de casos (casosBairro).
 
 ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/5718e68a-0ae5-4c6c-aaac-a4ebcab6ab33)
 
+Após feito isso é só voltar ao Menu Principal
 
-
-Para adiconar um texto
 
 ##### 3 - Baixar 
 
