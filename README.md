@@ -66,7 +66,7 @@ O aplicativo suporta apenas planilhas em CSV, tabuladas por vírgula ou ponto e 
 
 
 
-Clique em "Browse" e selecione o arquivo em seu computador e em seguida clique em "Upload". **ATENÇÃO**: caso a tabulação ou a coluna estiver incorreta esta camada não irá funcionar. Para confirmar se está certo você pode abrir as propriedades da camada
+Clique em "Escolher arquivo" e selecione o arquivo em seu computador e em seguida clique em "Upload". **ATENÇÃO**: caso a tabulação ou a coluna estiver incorreta esta camada não irá funcionar. Para confirmar se está certo você pode abrir as propriedades da camada
 
 **2.2 - Propriedades**
 
@@ -93,6 +93,11 @@ Após feito isso é só voltar ao Menu Principal
 Para baixar o mapa basta cliclar em "Baixar", definir um nome para o arquivo e o zoom inicial. Por padrão o zoom está em 12.
 
 ![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/73a4cd83-044b-46f5-80e1-c48ce379c3d0)
+
+**Pronto!!** O arquivo será salvo na pasta do programa, basta abrir com seu navegador padrão:
+
+![image](https://github.com/brunomaion/GeoApp-Exe/assets/75392370/7ccd98a2-88fc-4e56-820c-5050ab1fcbe7)
+
 
 
 
